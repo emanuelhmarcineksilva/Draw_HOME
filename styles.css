@@ -46,7 +46,7 @@ header {
 }
 
 main {
-    background: url(./fundo/estrim.jpg);
+    background: url(estrim.jpg);
     background-repeat: repeat;
     background-position: 200px 200px;
     background-attachment: fixed;
@@ -110,7 +110,7 @@ main {
 
 footer {
     text-align: center;
-    background: url(./fundo/marrom.jpg);
+    background: url(marrom.jpg);
     padding: 50px 0;
 }
 
