@@ -1,0 +1,156 @@
+header {
+    background: url(./fundo/marrom.jpg);
+    padding: 20px 0;
+    margin: none;
+}
+
+.caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.navega {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.navega li {
+    display: inline;
+}
+
+.navega a {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navega a:hover {
+    background: #FFFFFF;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.8);
+}
+
+.logo{
+    width: 24%;
+    margin: 40px 0;
+    border: 2.1px solid #000000;
+    border-radius: 14px;
+    padding: 0;
+}
+
+main {
+    background: url(./fundo/estrim.jpg);
+    background-repeat: repeat;
+    background-position: 200px 200px;
+    background-attachment: fixed;
+}
+
+.titulo {
+    margin: none;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.paragrafo {
+    font-size: 23px;
+    margin: 5px;
+    text-align: center;
+}
+
+.escolha {
+    width: 1200px;
+    margin: auto;
+}
+
+.lista {
+    padding: 20px 0;
+}
+
+.lista a {
+    display: inline-block;
+    padding: 25px 110px;
+    margin: 40px 35px;
+    border: #000000 solid 1.3px;
+    border-radius: 17px;
+    width: 100px;
+    text-align: center;
+}
+
+.lista > a {
+    background: url(./imgs/temas/rostos.jpg);
+}
+
+.lista > a + a {
+    background: url(./imgs/temas/corpo1.jpg);
+}
+
+.lista > a + a + a {
+    background: url(./imgs/temas/mãos1.jpg);
+}
+
+.lista > a + a + a + a {
+    background: url(./imgs/temas/cartoon12.jpg);
+}
+
+.lista > a + a + a + a + a {
+    background: url(./imgs/temas/animais2.jpg);
+}
+
+.lista > a + a + a + a + a + a {
+    background: url(./imgs/temas/objetos11.jpg);
+}
+
+.lista > a + a + a + a + a + a + a {
+    background: url(./imgs/temas/roupas2.jpg);
+}
+
+.lista > a + a + a + a + a + a + a + a {
+    background: url(./imgs/temas/cabelos.jpg);
+}
+
+.lista > a + a + a + a + a + a + a + a + a {
+    background: url(./imgs/temas/olhos11.jpg);
+}
+
+.lista > a + a + a + a + a + a + a + a + a + a {
+    background: url(./imgs/temas/paisagens22.jpg);
+}
+
+.lista > a + a + a + a + a + a + a + a + a + a + a {
+    background: url(./imgs/temas/casas21.jpg);
+}
+
+.lista > a + a + a + a + a + a + a + a + a + a + a + a {
+    background: url(./imgs/temas/diversos2.jpg);
+}
+
+.lista a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.lista a:hover {
+    opacity: 0.7;
+}
+
+footer {
+    text-align: center;
+    background: url(./fundo/marrom.jpg);
+    padding: 50px 0;
+}
+
+.copyright {
+    color: black;
+    font-size: 18px;
+}

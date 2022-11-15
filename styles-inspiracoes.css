@@ -1,0 +1,64 @@
+header {
+    background: url(./fundo/marrom.jpg);
+    padding: 20px 0;
+    margin: none;
+}
+
+.caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.navega {
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+
+.navega li {
+    display: inline;
+}
+
+.navega a {
+    text-decoration: none;
+    font-size: 23px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.navega a:hover {
+    background: #FFFFFF;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgb(0, 0, 0, 0.8);
+}
+
+.logo{
+    width: 24%;
+    margin: 40px 0;
+    border: 2.1px solid #000000;
+    border-radius: 14px;
+    padding: 0;
+}
+
+main {
+    background: url(./fundo/estrim.jpg);
+    background-repeat: repeat;
+    background-position: 200px 200px;
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    background: url(./fundo/marrom.jpg);
+    padding: 50px 0;
+}
+
+.copyright {
+    color: black;
+    font-size: 18px;
+}
